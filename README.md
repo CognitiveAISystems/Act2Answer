@@ -86,15 +86,14 @@ Use `ASSETS=<asset_name>` and `COUNT=<n>` to select an evaluation slice. `COUNT=
 ## Citation
 
 ```bibtex
-@article{act2answer2026,
-  title   = {Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge
-             Retention in Vision-Language-Action Models},
-  author  = {Kachaev, Nikita and Moskalenko, Andrey and Skripkin, Matvey and Kurlaev, Nikita
-             and Pugacheva, Daria and Burlova, Albina and Kolosov, Mikhail and Shepelev, Denis
-             and Kuznetsov, Andrey and Tutubalina, Elena and Panov, Aleksandr I.
-             and Kovalev, Alexey K. and Shakhuro, Vlad},
-  year    = {2026},
-  url     = {https://tttonyalpha.github.io/act2answer/}
+@misc{kachaev2026doesvlaknowbasics,
+      title={Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models},
+      author={Nikita Kachaev and Andrey Moskalenko and Matvey Skripkin and Nikita Kurlaev and Daria Pugacheva and Albina Burlova and Mikhail Kolosov and Denis Shepelev and Andrey Kuznetsov and Elena Tutubalina and Aleksandr I. Panov and Alexey K. Kovalev and Vlad Shakhuro},
+      year={2026},
+      eprint={2606.19297},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.19297},
 }
 ```
 
