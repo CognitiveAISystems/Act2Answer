@@ -1,0 +1,23 @@
+# Curated direct dependencies for the lightweight eval client.
+# CUDA torch is installed explicitly by scripts/setup/setup_eval_client_env.sh.
+
+numpy==1.26.4
+opencv-python
+pillow
+PyYAML
+tqdm
+tyro
+gymnasium==0.29.1
+sapien==3.0.0b1
+transforms3d
+trimesh
+imageio
+imageio-ffmpeg
+matplotlib
+dacite
+omegaconf
+hydra-core
+requests
+websockets>=12
+msgpack
+json-numpy

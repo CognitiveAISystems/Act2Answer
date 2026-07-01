@@ -1,0 +1,14 @@
+# Curated direct dependencies for the Xiaomi-Robotics-0 policy server.
+# CUDA torch and flash-attn are installed explicitly by scripts/setup/setup_xiaomi_server_env.sh.
+
+transformers==4.57.1
+accelerate
+safetensors
+pillow
+numpy
+pandas
+tqdm
+protobuf
+sentencepiece
+einops
+huggingface-hub

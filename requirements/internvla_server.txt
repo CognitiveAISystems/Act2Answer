@@ -1,0 +1,16 @@
+# Curated direct dependencies for the InternVLA-M1 policy server.
+# CUDA torch is installed explicitly by scripts/setup/setup_internvla_env.sh.
+# The external InternVLA-M1 repo's own requirements.txt is also installed by the setup script.
+
+transformers==4.37.2
+accelerate
+deepspeed
+timm
+einops
+sentencepiece
+safetensors
+pillow
+numpy
+websockets>=12
+msgpack
+json-numpy

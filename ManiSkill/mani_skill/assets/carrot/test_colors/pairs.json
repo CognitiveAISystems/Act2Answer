@@ -1,0 +1,44 @@
+[
+  {
+    "index": 0,
+    "left": "tile_0",
+    "right": "tile_1",
+    "question": "Put cube on blue",
+    "answer": "Right"
+  },
+  {
+    "index": 1,
+    "left": "tile_2",
+    "right": "tile_3",
+    "question": "Put cube on red",
+    "answer": "Left"
+  },
+  {
+    "index": 2,
+    "left": "tile_4",
+    "right": "tile_5",
+    "question": "Put cube on green",
+    "answer": "Left"
+  },
+  {
+    "index": 3,
+    "left": "tile_6",
+    "right": "tile_7",
+    "question": "Put cube on black",
+    "answer": "Right"
+  },
+  {
+    "index": 4,
+    "left": "tile_8",
+    "right": "tile_9",
+    "question": "Put cube on red",
+    "answer": "Left"
+  },
+  {
+    "index": 5,
+    "left": "tile_10",
+    "right": "tile_11",
+    "question": "Put cube on blue",
+    "answer": "Right"
+  }
+]

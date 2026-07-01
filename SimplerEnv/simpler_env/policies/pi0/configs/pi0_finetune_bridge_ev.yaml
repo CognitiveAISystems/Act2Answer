@@ -1,0 +1,23 @@
+name: pi0_finetune
+seed: 42
+model_cfg: !include ./pi0_finetune_bridge.json
+
+eval_cfg:
+  simulator_name: "simpler"
+  env_adapter: "BridgeSimplerAdapter"
+  task_list: [
+    # * original tasks
+    "widowx_carrot_on_plate",
+  ]
+
+  n_eval_episode: 24
+  n_video: 24
+  recording: True
+  pretrained_model_path: "juexzz/INTACT-pi0-finetune-bridge"
+  pretrained_model_gradient_step_cnt: [1513]
+
+env:
+  dataset_statistics_path: ./bridge_statistics.json
+
+wandb:
+  project: "vla_benchmark"

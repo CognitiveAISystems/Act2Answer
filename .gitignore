@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Run artifacts / eval outputs
+wandb/
+exps/
+runs/
+*.log
+SimplerEnv/rotation_debug/
+
+# Model weights & caches (downloaded at setup, never committed)
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+.cache/
+
+# OS
+.DS_Store

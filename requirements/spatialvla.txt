@@ -1,0 +1,11 @@
+# Curated direct dependencies for SpatialVLA in-process eval.
+# CUDA torch is installed explicitly by scripts/setup/setup_spatialvla_env.sh.
+
+-r eval_client.txt
+transformers==4.47.1
+accelerate
+huggingface-hub
+safetensors
+sentencepiece
+einops
+timm

@@ -1,0 +1,18 @@
+# Curated direct dependencies for pi0 / RL4VLA in-process eval.
+# CUDA torch is installed explicitly by scripts/setup/setup_pi0_env.sh.
+
+-r eval_client.txt
+transformers
+accelerate
+huggingface-hub
+safetensors
+sentencepiece
+einops
+datasets
+draccus
+jsonlines
+jaxtyping
+beartype
+flax
+optax
+orbax-checkpoint

@@ -1,0 +1,13 @@
+# Curated direct dependencies for the MolmoAct2 policy server.
+# CUDA torch is installed explicitly by scripts/setup/setup_molmoact2_server_env.sh.
+
+transformers
+accelerate
+safetensors
+einops
+pillow
+numpy
+requests
+fastapi
+uvicorn[standard]
+json-numpy

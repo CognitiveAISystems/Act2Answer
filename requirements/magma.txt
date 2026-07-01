@@ -1,0 +1,11 @@
+# Curated direct dependencies for Magma in-process eval.
+# CUDA torch and flash-attn are installed explicitly by scripts/setup/setup_magma_env.sh.
+
+-r eval_client.txt
+transformers==4.40.1
+accelerate
+huggingface-hub
+safetensors
+sentencepiece
+einops
+timm
